@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(0, 0, 0);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #000000;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h1 {
+  
+  
+  color: white;
+}
+h2 {
+    color: white;
+    
+}
+
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+p {
+    float: inline-end;
+    color: white;
+    
+    font-size: 18px;
+}
+div.padding {
+  background-color: rgb(0, 0, 0);
+  padding-top: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+}
+
+
+
+</style>
+</head>
+<body background="https://wallpaperaccess.com/full/4018580.jpg">
+
+  <div class="navbar">
+    <a href="./home.html"><img src="https://i.ibb.co/DzhXHJM/a-8.png" width="150" height="50"></a>
+    <a href="./about.html"><img src="https://i.ibb.co/rwQ2BwH/a-9.png" width="150" height="50" style="background-color: trans;"></a>
+    <a href="./worldmap.html"><img src="https://i.ibb.co/Sdsnvgz/a-7.png" width="150" height="50"></a>
+    <a href="./moreinformation.html"><img src="https://i.ibb.co/bmLzpTm/a-17.png" width="150" height="50"></a> 
+    <a href="./food.html"><img src="https://i.ibb.co/drVPmyH/a-27.png" width="150" height="50"></a>
+      <div class="dropdown">
+        <button class="dropbtn"><img src="https://i.ibb.co/SPJTn3j/a-6.png" width="150" height="50">
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="./nihonsei.html"><img src="https://i.ibb.co/D7v3gS1/a-10.png" width="150" height="50"></a>
+            <a href="./Aryavarta(india).html"><img src="https://i.ibb.co/L6P6kGf/a-11.png" width="150" height="50"></a>
+            <a href="./Celestoria(china).html"><img src="https://i.ibb.co/6BphqFr/a-12.png" width="150" height="50"></a>
+            <a href="./Orkhonvaria(mongolia).html"><img src="https://i.ibb.co/gr76vsV/a-14.png" width="150" height="50"></a>
+            <a href="./Sirenasia(ph).html"><img src="https://i.ibb.co/JvR39xX/a-15.png" width="150" height="50"></a>
+            <a href="./Tsarvania(russia).html"><img src="https://i.ibb.co/HFt9K7j/a-16.png" width="150" height="50"></a>
+       </div>
+      </div>
+    </div>
+
+    
+    <h1>ㅤ</h1>
+    <h1>ㅤ</h1>
+    <h1>ㅤ</h1>
+    <h1>ㅤ</h1>
+<div class="padding" style="color: white;">
+  
+  <h1>World Map</h1>
+  <div class="w3-container w3-third">
+    <img src="https://i.ibb.co/znZ2jM1/a-26.png" width="500" height="200"
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+ 
+<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+  <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom">
+    <img id="img01" style="width:100%">
+  </div>
+</div>
+<h1>Story about World</h1>
+<p>In a world of dragons, the dark dragon was feared and revered as the strongest and most dangerous of them all. For centuries, it had roamed the land, causing chaos and destruction wherever it went. The other dragons, fearing for their own safety and that of the humans they shared the world with, decided that they had to take action.
+
+    <p>
+        Six dragons, each with their own unique elemental powers, gathered together to form a plan. They knew that defeating the dark dragon would not be easy, but they were determined to try. Together, they flew towards the dark dragon's lair, a treacherous mountain range that was shrouded in darkness and mystery.
+    
+    </p>
+    <p>As they approached the lair, the dark dragon emerged from the shadows, its eyes gleaming with malice and power. The six dragons prepared for battle, each using their own elemental powers to attack the dark dragon. The earth dragon, Stonescorch, sent massive boulders hurtling towards the dark dragon, while the air dragon, Breezewyrm, summoned powerful gusts of wind to try and knock it off balance.
+    
+    </p>
+    <p>The fire dragon, Flametonguer, breathed jets of flame towards the dark dragon, while the water dragon, Aquarion, summoned a powerful tidal wave to try and engulf it. The nature dragon, Leafcrownia, called forth vines and thorns to ensnare the dark dragon, while the snow dragon, Glacirosa, encased it in ice.
+    </p>
+    <p>For hours, the battle raged on, the ground shaking beneath them as the dragons unleashed their powers. But even with all of their combined strength, the dark dragon seemed invincible, its scales unbreakable and its attacks relentless.
+    </p>
+    <p>Just when it seemed like all hope was lost, the dragons came up with a new plan. Using their powers in unison, they created a massive vortex of energy that surrounded the dark dragon, trapping it inside. The vortex grew brighter and brighter, until finally, with a blinding flash of light, the dark dragon was defeated.
+    </p>
+   <p> But as the dragons landed to catch their breath, they realized that the dark dragon was still alive. Weakened and injured, it had managed to escape their trap and fly away. The dragons knew that they could not let the dark dragon roam free once again, so they set out to find it.
+</p>
+    <p>For months, they searched the land, flying over mountains and across oceans in their quest. Finally, they came across a remote island, shrouded in mist and hidden from the rest of the world. And there, on that island, they found the dark dragon.
+    </p>
+   <p> But to their surprise, the dark dragon was not hostile towards them. It was weak and tired, its once-mighty form reduced to a shadow of its former self. The dragons realized that they had defeated the dark dragon not just physically, but spiritually as well. It had been humbled by their strength and courage, and it no longer posed a threat to anyone.
+</p> 
+    <p>The dragons decided to let the dark dragon live on the island, where it could spend the rest of its days in peace and solitude. And so, the six dragons returned home, proud of their victory but also humbled by the knowledge that even the strongest and most fearsome of creatures could be tamed with the power of compassion and understanding.</div>
+    </p><script>
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+    }
+    </script>
+<p>Credits to: https://wallpaperaccess.com/full/4018580.jpg</p>
+
+
+
+</body>
+</html>
